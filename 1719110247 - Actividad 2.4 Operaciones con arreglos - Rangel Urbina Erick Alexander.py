@@ -68,6 +68,7 @@ if response == 'y':
     print(valuesNumpyVert)
 else:
     print("Ok...")
+    
 #/*************************** Invertir  matriz **************\
 responsev2 = str(input("\ndeseas generaruna diagonal con tu matriz (y/n): "))
 diagflatArray = valuesNumpy
