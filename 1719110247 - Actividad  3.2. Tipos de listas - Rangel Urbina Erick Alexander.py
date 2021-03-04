@@ -130,7 +130,7 @@ class create_circular_linked_list(object):
             count += 1
             if cur.next == self.head: #buscar el siguiente nodo para saber si es la cola 
                 break
-            else: #contrario
+            else: #contrario este nodo es la cola
                 cur = cur.next
         return count
  
@@ -160,7 +160,7 @@ class create_circular_linked_list(object):
             count = 0
             while count < index:
                 pre = cur
-                cur = cur.next #el nuevo nodo apunta al orginal donde se agrego el que se esta crando
+                cur = cur.next #el nuevo nodo apunta al orginal donde se agrego el que se esta creando
                 count += 1
             pre.next = node
             node.next = cur
@@ -174,11 +174,11 @@ class create_circular_linked_list(object):
             cur = cur.next
             print(cur.data) #imprimir todos los nodos
  
-''' 
+'''
 lists = create_circular_linked_list()
-lists.add_first(1)
+lists.add_first(-5)
 lists.add_first(0)
-lists.insert_node(2, 8)
+lists.insert_node(2, 10)
 lists.travel()
 print ("Longitud de la lista:", lists.length ())
 lists.travel()
