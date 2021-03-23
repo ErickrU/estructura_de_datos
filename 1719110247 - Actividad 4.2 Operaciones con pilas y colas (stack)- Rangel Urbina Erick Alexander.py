@@ -27,5 +27,6 @@ if d == 'y':
     except:
         print('algo salio mal :P')
 else:
+    pass
 
 print('\nelementos actuales en la pila',stack.queue)
