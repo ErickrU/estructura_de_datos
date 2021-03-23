@@ -22,6 +22,7 @@ class stack(object): #clase pila
         print(self.items)
 
 obj = stack()
+print(obj.empty())
 obj.push(15)
 obj.push(25)
 obj.push(35)

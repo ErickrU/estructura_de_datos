@@ -11,7 +11,7 @@ print(list(q.queue)) #valores en la cola
 
 print("\nFull: ", q.full()) #aqui imprimimos si la cola esta llena
 print("\nElements dequeued from the queue") #elementos que van a ser eliminados de la cola
-print(q.get()) #nos retorna el valor y lo elimina de la cola
+print(q.pop()) #nos retorna el valor y lo elimina de la cola
 print(q.get())
 print(q.get())
 
